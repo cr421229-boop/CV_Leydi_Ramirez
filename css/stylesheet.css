@@ -1,60 +1,53 @@
 /* ====== ESTILO GENERAL ====== */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #c00808;
-    margin: 0;
-    padding: 0;
+    font-family: Times 'Times New Roman', Times, serif;
+    background-color: #cea9e7;
+    color: rgb(45, 44, 47);
+    margin: 60px; 
+    padding: 30;
 }
 
 /* ====== ENCABEZADO ====== */
 header {
     text-align: left;
-    background-color: #1d3557;
-    color: white;
+    background-color: #e6cef1;
+    color: rgb(10, 0, 0);
     padding: 30px 0;
+    text-align: center;
 }
 
 header img {
-    width: 150px;
-    height: 150px;
-    margin-top: 10px;
-    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin-top: 30px;
+    border-radius: 30%;
+    display: block;
+    margin: auto;
     object-fit: cover;
 }
 
 /* ====== CONTENEDORES ====== */
 section {
     width: 80%;
-    margin: 40px auto;
-}
-
-.tarjeta {
-    background: blueviolet;
-    padding: 25px;
-    margin-bottom: 25px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.tarjeta h2 {
-    color: #7a1175;
-    margin-bottom: 5px;
-}
-
-.tarjeta h3 {
-    color: #457b9d;
-    margin-top: 0;
-}
-
-/* ====== LISTA DE COMPETENCIAS ====== */
-#competencias ul {
-    list-style: none;
-    padding: 0;
+    margin: 10px auto;
 }
 
 #competencias li {
-    background-color: red;
-    padding: 99px;
-    margin: 80px 0;
+    background-color: rgb(154, 93, 182);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 80px;
+}    
+
+/* ====== CONTENEDORES ====== */
+section {
+    width: 50%;
+    margin: 10px auto;
+}
+
+#Funciones li {
+    background-color: rgb(154, 93, 182);
+    padding: 05px;
+    margin: 10px 0;
     border-radius: 80px;
 }
