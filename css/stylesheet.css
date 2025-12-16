@@ -1,9 +1,9 @@
 /* ====== ESTILO GENERAL ====== */
 body {
-    font-family: Times 'Times New Roman', Times, serif;
-    background-color: #cea9e7;
+    font-family: 'Poppins', sans-serif;
+    background-color: #efe4f8;
     color: rgb(45, 44, 47);
-    margin: 60px; 
+    margin: 10px; 
     padding: 30;
 }
 
@@ -28,16 +28,29 @@ header img {
 
 /* ====== CONTENEDORES ====== */
 section {
-    width: 80%;
+    width: 15%;
     margin: 10px auto;
 }
 
-#competencias li {
-    background-color: rgb(154, 93, 182);
-    padding: 10px;
+#Académico{
+    background-color: #e6cef1;
+    padding: 20px;
     margin: 10px 0;
-    border-radius: 80px;
+    border-radius: 10px;
 }    
+
+/* ====== CONTENEDORES ====== */
+section {
+    width: 90%;
+    margin: 10px auto;
+}
+
+#información{
+    background-color: rgb(251, 248, 252);
+    padding: 30px;
+    margin: 10px 0;
+    border-radius: 10px;
+}  
 
 /* ====== CONTENEDORES ====== */
 section {
@@ -45,9 +58,59 @@ section {
     margin: 10px auto;
 }
 
-#Funciones li {
-    background-color: rgb(154, 93, 182);
-    padding: 05px;
+#experiencia {
+    background-color: #e6cef1;
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+/* ====== CONTENEDORES ====== */
+section {
+    width: 50%;
+    margin: 10px auto;
+}
+
+#puesto {
+    background-color: rgb(251, 248, 252);
+    padding: 20px;
     margin: 10px 0;
-    border-radius: 80px;
+    border-radius: 10px;
+}
+
+/* ====== CONTENEDORES ====== */
+section {
+    width: 10%;
+    margin: 10px auto;
+}
+
+#competencias {
+    background-color: #e6cef1;
+    padding: 30px;
+    margin: 40px 0;
+    border-radius: 10px;
+}
+
+section {
+    width: 50%;
+    margin: 10px auto;
+}
+
+#items {
+    background-color: rgb(251, 248, 252);
+    padding: 30px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+section {
+    width: 50%;
+    margin: 10px auto;
+}
+
+#bitacora {
+    background-color: #e6cef1;
+    padding: 30px;
+    margin: 10px 0;
+    border-radius: 10px;
 }
