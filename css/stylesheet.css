@@ -17,7 +17,7 @@ header {
 }
 
 header img {
-    width: 160px;
+    width: 100px;
     height: 160px;
     margin-top: 30px;
     border-radius: 30%;
@@ -25,6 +25,31 @@ header img {
     margin: auto;
     object-fit: cover;
 }
+
+/* ====== CONTENEDORES ====== */
+section {
+    width: 15%;
+    margin: 10px auto;
+}
+
+#acerca{
+    background-color: #e6cef1;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+section {
+    width: 90%;
+    margin: 10px auto;
+}
+
+#mi{
+    background-color: rgb(251, 248, 252);
+    padding: 30px;
+    margin: 10px 0;
+    border-radius: 10px;
+}  
 
 /* ====== CONTENEDORES ====== */
 section {
